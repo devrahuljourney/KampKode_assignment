@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,10 +24,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+} */ 
+
+
+.navbar_shadow{
+  -webkit-box-shadow:0px 0px 15px 0px rgba(126,65,176,0.8);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(126,65,176,0.8);
+  box-shadow: 0px 0px 15px 0px rgba(126,65,176,0.8);
 }
